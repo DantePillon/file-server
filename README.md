@@ -1,6 +1,6 @@
 # FileServer
 Another Jetbrains Academy project, emulating a file server wherein clients can store, retrieve and delete their own files.
-I learnt about Functional Interfaces, Anonymous Classes, Lambda Expressions, Functional Interfaces, Multithreading, Sets and Maps, Serialization. 
+I learnt about Functional Interfaces, Anonymous Classes, Lambda Expressions, Multithreading, Sets and Maps, Serialization. 
 
 I realize that all client sessions use the same console for input and output, so if there were multiple sessions as in the program, then all the input and output would
 get mixed up. But this is supposed to be a mock program, I have written it with the idea that different people would be using it on different machines.
