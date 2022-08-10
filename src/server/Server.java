@@ -35,6 +35,7 @@ public class Server {
                 BufferedInputStream bis = new BufferedInputStream(fis);
                 ObjectInputStream ois =  new ObjectInputStream(bis)
         ) {
+            // No clue whatsoever about how to fix this warning.
             fileMap = (Map<Integer, File>) ois.readObject();
         } catch (EOFException e) {
             fileMap = new HashMap<>();
